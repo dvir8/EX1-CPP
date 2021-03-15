@@ -11,6 +11,15 @@ using namespace ariel;
 #include <iostream>
 using namespace std;
 
+
+
+// string nospaces(string input) {
+// 	input::erase(input, ' ');
+// 	std::erase(input, '\t');
+// 	std::erase(input, '\n');
+// 	std::erase(input, '\r');
+// 	return input;
+// }
 TEST_CASE("GOOD SNOWMAN"){
             CHECK(snowman(12112432) == string ("       \n _===_ \n\\(...) \n (> <) \n (\" \") "));
             CHECK(snowman(11111111) == string ("       \n _===_ \n (.,.) \n<( : )>\n ( : ) "));
